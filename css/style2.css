@@ -49,7 +49,6 @@ footer{
   display:-webkit-inline-box;
 }
 
-
 .itemmenu {
   padding-left:20px;
   text-decoration:none;
@@ -105,6 +104,11 @@ footer{
 	font-size:20px;
 }
 
+.dupla{
+	float:left;
+	width:50%;
+	margin-top:-30px;
+}
 
 .minipost{
 	height: 400px;
@@ -185,8 +189,9 @@ footer{
 
 }
 
-.divisaoE{
-	float:center;
+.imagem{
+	width:100%;
+	height:100%;
 }
 
 .divisao p{
@@ -196,9 +201,3 @@ footer{
 .divisaoE p{
 	font-weight:bold;
 }
-
-iframe {
-    border:0;
-}
-
-
