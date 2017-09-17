@@ -1,0 +1,175 @@
+html, body {
+    margin:0;
+    position:relative;
+    height:100%;
+}
+
+header{
+    width: 200px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    position: fixed;
+}
+
+footer{
+  width: 100%;
+  height: 85px;
+  bottom: 0;
+  right: 0;	
+  margin-top:20px;
+  background-color:#111;
+  color:#FFF;
+  float:left;
+  text-align:center;
+  font-family: medium-ui-sans-serif-text-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-style:normal;
+  letter-spacing: 0;
+  position:relative;
+  clear:both;
+}
+
+.menu {
+	  height: 100%; 
+    width: 200px;
+    z-index: 1; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+}
+
+.titulo {
+  color: #FFF;
+  font-size:32px;
+  padding:20px 0 0 20px;
+  float:left;
+  display:-webkit-inline-box;
+}
+
+
+.itemmenu {
+  padding-left:20px;
+  text-decoration:none;
+  text-transform:uppercase;
+  text-decoration: none;
+	color:#FFF;
+  font-size: 20px;
+}
+
+.menu a:hover{
+  text-decoration:underline;
+}
+
+.container{
+  margin-left: 200px;
+  padding-left: 40px;
+  width:70%;
+}
+
+.subtitulo{
+  font-family: "Lucida Sans",Geneva,Arial,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  margin-left: -2.5px;
+  line-height: 1.04;
+  letter-spacing: -.028em;
+  clear:both;
+}
+
+.texto {
+  font-family: "Open Sans","Helvetica Neue",sans-serif;
+  letter-spacing: 0;
+  color: rgba(0,0,0,.8);
+  font-style: normal;
+  text-align:justify;
+  padding-top: 70px;
+}
+
+.topicopost{
+    font-family: medium-ui-sans-serif-text-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-style:normal;
+    letter-spacing: 0;
+    font-size:16px;
+}
+
+.topico{
+	font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+	font-size:20px;
+}
+
+
+.minipost{
+	height: 400px;
+  width: 100%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 8px;
+  font-family: medium-ui-sans-serif-text-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 0;
+}
+
+.imgpost{
+	width:450px;
+	height:300px;	
+	margin-left:35px; /*Gambiarra, pq não sei centralizar a imagem*/
+  float:right;
+} 
+
+.titulotopico{
+	font-weight:bold;
+	font-size:20px;
+	
+}	
+
+.link{
+  text-decoration:none;
+  color:black; 
+}
+
+.video{
+  width:100%;
+  height:500px;
+}
+
+.foto-perfil{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.nome{
+  font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+  font-size:20px;
+  font-weight:bold;
+  text-align:center;
+  
+}
+
+.perfil {
+  font-family: medium-ui-sans-serif-text-font,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-style:normal;
+  font-size:20px;
+  letter-spacing: 0;
+  text-align:center;
+}
+
+.mini-texto{
+  font-size:13px;
+  color: rgba(0,0,0,.8);
+}
+
+.figura{
+  float:left;  
+}
+
+.objetivo{
+  margin-left: 225px;
+  height: 225px;
+}
