@@ -1,5 +1,5 @@
 html, body {
-    margin:0;
+    margin:0;	
 }
 
 header {
@@ -19,6 +19,10 @@ footer{
   margin-top:20px;
   background-color:#3C887E ;
   float:left;
+}
+
+.portfolio{
+	text-align:center;	
 }
 
 .menu {
@@ -132,12 +136,16 @@ footer{
   height:500px;
 }
 
+.imagem{
+	width:100%;
+	height:100%;
+}
+
 .foto-perfil{
   border-radius: 50%;
   display: block;
   margin-left: auto ;
-  margin-right: auto ;
-  
+  margin-right: auto ;  
 }
 
 .nome{
@@ -167,6 +175,34 @@ footer {
     font-style:normal;
     letter-spacing: 0;
 }
+
+.dupla{
+	float:left;
+	width:50%;
+	margin-top:-30px;
+}
+
+.figura{	
+	margin-top:20px;
+	float:left;	
+}
+
+.objetivo{
+	float:left;
+	width:80%;
+	margin-top:10px;
+}
+
+.figura img{
+	width:100px;
+	height:100px;
+	margin-right:20px;
+}
+
+.textodesc{
+	font-style:italic;
+}
+
 
 
 
