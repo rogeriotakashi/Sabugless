@@ -85,8 +85,12 @@ footer{
   letter-spacing: 0;
   color: rgba(0,0,0,.8);
   font-style: normal;
-  text-align:justify;
-  padding-top: 70px;
+  text-align:justify; 
+}
+
+.textodesc{
+	font-style:italic;
+	 padding-top: 70px;
 }
 
 .topicopost{
@@ -172,4 +176,23 @@ footer{
 .objetivo{
   margin-left: 225px;
   height: 225px;
+}
+
+.divisao{
+	float:left;
+	width:45%;
+	margin-right:20px;
+
+}
+
+.divisaoE{
+	float:center;
+}
+
+.divisao p{
+	font-weight:bold;	
+}
+
+.divisaoE p{
+	font-weight:bold;
 }
