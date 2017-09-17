@@ -176,6 +176,10 @@ footer {
     letter-spacing: 0;
 }
 
+footer.especial{
+	position:fixed;
+}
+
 .dupla{
 	float:left;
 	width:50%;
@@ -203,6 +207,22 @@ footer {
 	font-style:italic;
 }
 
+.divisao{
+	float:left;
+	width:45%;
+	margin-right:20px;
+}
 
+.divisaoE{
+	float:center;
+}
+
+.divisao p{
+	font-weight:bold;
+}
+
+.divisaoE p{
+	font-weight:bold;
+}
 
 
